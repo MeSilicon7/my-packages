@@ -1,0 +1,9 @@
+{
+  "name": "@mesilicon7/simple-cf-image-utils",
+  "version": "1.1.0",
+  "license": "MIT",
+  "exports": "./index.ts",
+  "publish": {
+    "include": ["dist", "package.json","index.ts", "README.md", "LICENSE"]
+  }
+}

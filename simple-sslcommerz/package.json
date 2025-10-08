@@ -1,0 +1,43 @@
+{
+  "name": "@mesilicon7/simple-sslcommerz",
+  "version": "1.0.1",
+  "description": "Simple utilities for SSLCommerz payment gateway",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mesilicon7/my-packages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MeSilicon7/my-packages/issues"
+  },
+  "homepage": "https://github.com/MeSilicon7/my-packages/simple-sslcommerz#readme",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "sslcommerz",
+    "bangladesh payment gateway",
+    "utils",
+    "typescript",
+    "nodejs",
+    "deno",
+    "bun",
+    "edge workers",
+    "cloudflare workers"
+  ],
+  "author": "@mesilicon7",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^17.2.3",
+    "hono": "^4.9.10",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "@mesilicon7/simple-cf-image-utils",
+  "version": "1.1.1",
+  "description": "Simple utilities for Cloudflare Images",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mesilicon7/my-packages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MeSilicon7/my-packages/issues"
+  },
+  "homepage": "https://github.com/MeSilicon7/my-packages/simple-cf-image-utils#readme",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "cloudflare",
+    "images",
+    "utils"
+  ],
+  "author": "@mesilicon7",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^24.6.2",
+    "dotenv": "^17.2.3"
+  }
+}

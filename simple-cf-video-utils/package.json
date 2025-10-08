@@ -9,7 +9,7 @@
   "bugs": {
     "url": "https://github.com/MeSilicon7/my-packages/issues"
   },
-  "homepage": "https://github.com/MeSilicon7/my-packages/simple-cf-video-utils#readme",
+  "homepage": "https://github.com/MeSilicon7/my-packages/tree/main/simple-cf-video-utils",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "engines": {

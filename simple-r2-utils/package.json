@@ -1,6 +1,6 @@
 {
   "name": "@mesilicon7/simple-r2-utils",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Simple utilities for Cloudflare R2",
   "repository": {
     "type": "git",

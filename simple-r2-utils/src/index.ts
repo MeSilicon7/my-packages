@@ -1,4 +1,4 @@
-import { createHmac, createHash } from "crypto";
+import { createHmac, createHash } from "node:crypto";
 
 /**
  * Generates AWS4 signature key for request signing

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://jsr.io/schema/config-file.v1.json",
+  "name": "@mesilicon7/simple-r2-utils",
+  "version": "2.0.2",
+  "description": "Simple utilities for Cloudflare R2",
+  "license": "MIT",
+  "exports": "./src/index.ts",
+  "publish": {
+    "include": ["package.json", "src/index.ts", "README.md", "LICENSE"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mesilicon7/my-packages/tree/main/simple-r2-utils"
+  },
+  "keywords": ["cloudflare", "r2", "typescript"],
+  "compat": {
+    "deno": true,
+    "node": ">=18",
+    "bun": true,
+    "workerd": true,
+    "cloudflare": true
+  }
+}

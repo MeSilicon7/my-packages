@@ -1,0 +1,23 @@
+{
+  "$schema": "https://jsr.io/schema/config-file.v1.json",
+  "name": "@mesilicon7/simple-sslcommerz",
+  "version": "1.0.3",
+  "description": "A comprehensive, type-safe, and runtime-agnostic utility for integrating SSLCommerz payment gateway in your applications. Works seamlessly with Node.js, Bun, Deno, and Edge Workers.",
+  "license": "MIT",
+  "exports": "./src/index.ts",
+  "publish": {
+    "include": ["package.json", "src/index.ts", "README.md", "LICENSE"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mesilicon7/my-packages/tree/main/simple-sslcommerz"
+  },
+  "keywords": ["sslcommerz", "payment", "gateway", "typescript"],
+  "compat": {
+    "deno": true,
+    "node": ">=18",
+    "bun": true,
+    "workerd": true,
+    "cloudflare": true
+  }
+}

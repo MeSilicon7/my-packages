@@ -1,6 +1,6 @@
 {
   "name": "@mesilicon7/simple-sslcommerz",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple utilities for SSLCommerz payment gateway",
   "repository": {
     "type": "git",

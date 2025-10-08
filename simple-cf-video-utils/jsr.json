@@ -1,7 +1,8 @@
 {
-  "name": "@mesilicon7/simple-cf-image-utils",
-  "version": "1.1.2",
-  "description": "A lightweight TypeScript library for working with Cloudflare Images API. Provides utilities for generating direct upload URLs and signed image URLs.",
+  "$schema": "https://jsr.io/schema/config-file.v1.json",
+  "name": "@mesilicon7/simple-cf-video-utils",
+  "version": "1.0.2",
+  "description": "Simple utilities for Cloudflare Video/Stream",
   "license": "MIT",
   "exports": "./src/index.ts",
   "publish": {
@@ -9,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mesilicon7/my-packages/tree/main/simple-cf-image-utils"
+    "url": "https://github.com/mesilicon7/my-packages/tree/main/simple-cf-video-utils"
   },
   "keywords": ["cloudflare", "video", "stream", "typescript"],
   "compat": {

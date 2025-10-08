@@ -5,7 +5,7 @@
 A comprehensive, type-safe, and runtime-agnostic utility for integrating SSLCommerz payment gateway in your applications. Works seamlessly with Node.js, Bun, Deno, and Edge Workers.
 
 [![npm version](https://badge.fury.io/js/@mesilicon7%2Fsimple-sslcommerz.svg)](https://badge.fury.io/js/@mesilicon7%2Fsimple-sslcommerz)
-[![License](https://img.shields.io/badge/License-UNLICENSED-red.svg)](https://opensource.org/license/unlicense/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-green.svg)](https://nodejs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 

@@ -1,4 +1,4 @@
-import { useNetworkStatus } from "../../../use-network-status/src";
+import { useNetworkStatus } from "@mesilicon7/use-network-status";
 
 export default function CheckOnlineDemo() {
   const isConnected = useNetworkStatus();

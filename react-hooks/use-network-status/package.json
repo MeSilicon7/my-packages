@@ -27,7 +27,8 @@
   "scripts": {
     "dev": "tsdown watch",
     "build": "tsdown",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "prepublishOnly": "bun run clean && bun run build"
   },
   "keywords": [
     "react",

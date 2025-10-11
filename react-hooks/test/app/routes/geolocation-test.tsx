@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useGeolocation } from "../../../use-geolocation/src";
+import { useGeolocation } from "@mesilicon7/use-geolocation";
 
 export default function App() {
   const [ mounted, setMounted ] = useState(false);

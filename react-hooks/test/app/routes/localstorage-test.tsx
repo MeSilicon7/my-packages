@@ -1,5 +1,5 @@
 import { useState } from "react";
-import useLocalStorage from "../../../use-localstorage/src";
+import useLocalStorage from "@mesilicon7/use-localstorage";
 
 interface UserPreferences {
   username: string;

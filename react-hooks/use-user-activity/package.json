@@ -1,6 +1,6 @@
 {
   "name": "@mesilicon7/use-user-activity",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Detect user activity, visibility, and idle state with a simple React hook.",
   "author": "@mesilicon7",
   "license": "MIT",
@@ -27,7 +27,8 @@
   "scripts": {
     "dev": "tsdown watch",
     "build": "tsdown",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "prepublishOnly": "bun run clean && bun run build"
   },
   "keywords": [
     "react",

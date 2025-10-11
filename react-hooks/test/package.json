@@ -11,6 +11,7 @@
   "dependencies": {
     "@mesilicon7/simple-r2-utils": "^2.0.2",
     "@mesilicon7/use-fetch": "^1.0.3",
+    "@mesilicon7/use-file-upload-progress": "^1.0.0",
     "@mesilicon7/use-geolocation": "^1.0.0",
     "@mesilicon7/use-localstorage": "^1.0.0",
     "@mesilicon7/use-network-status": "^1.0.0",

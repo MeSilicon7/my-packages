@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { useFileUploadProgress } from "../../../use-file-upload-progress/src";
+import { useFileUploadProgress } from "@mesilicon7/use-file-upload-progress";
 
 
 export default function Home() {

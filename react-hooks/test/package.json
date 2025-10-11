@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@mesilicon7/simple-r2-utils": "^2.0.2",
+    "@mesilicon7/use-fetch": "^1.0.3",
     "@mesilicon7/use-user-activity": "^1.0.1",
     "@react-router/node": "^7.9.4",
     "@react-router/serve": "^7.9.4",

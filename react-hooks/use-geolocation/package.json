@@ -1,6 +1,6 @@
 {
   "name": "@mesilicon7/use-geolocation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the user's current location with a simple React hook.",
   "author": "@mesilicon7",
   "license": "MIT",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/mesilicon7/my-packages.git"
   },
-  "homepage": "https://github.com/mesilicon7/my-packages/tree/main/react-hooks/use-user-activity#readme",
+  "homepage": "https://github.com/mesilicon7/my-packages/tree/main/react-hooks/use-geolocation#readme",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

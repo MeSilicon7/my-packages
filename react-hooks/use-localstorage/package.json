@@ -1,0 +1,49 @@
+{
+  "name": "@mesilicon7/use-localstorage",
+  "version": "1.0.0",
+  "description": "Sync state with localStorage in a simple React hook.",
+  "author": "@mesilicon7",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mesilicon7/my-packages.git"
+  },
+  "homepage": "https://github.com/mesilicon7/my-packages/tree/main/react-hooks/use-user-activity#readme",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsdown watch",
+    "build": "tsdown",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "react",
+    "react-hooks",
+    "activity",
+    "idle-detection",
+    "visibility",
+    "typescript"
+  ],
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "react": "^19.2.0",
+    "tsdown": "^0.15.6",
+    "typescript": "^5.9.3"
+  }
+}
